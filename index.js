@@ -89,7 +89,6 @@ panel.plugin('rasteiner/k3-array-field', {
       },
       methods: {
         close() {
-          console.log(this.currentModel.value)
           if(this.currentModel.value === undefined || this.currentModel.value === null) {
             this.remove(this.currentlyEditing)
           }
